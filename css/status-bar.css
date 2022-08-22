@@ -1,16 +1,13 @@
-body {
-  font-family: -apple-system
-}
-
 .status-bar {
   display: flex;
   justify-content: center; 
+  margin: 5px 3px;
 }
 
 .status-bar__column:first-child span {
   margin-right: 5px;
 }
-w
+
 .status-bar__column {
   width: 33% 
 }
