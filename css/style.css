@@ -1,8 +1,8 @@
 @import "reset.css"; 
-@import "status-bar.css";
-@import "welcome-header.css";
+@import "components/status-bar.css";
+@import "screens/welcome-header.css";
 @import "variables.css";
-@import "entrance-form.css";
+@import "screens/entrance-form.css";
 
 body {
   font-family: -apple-system;
