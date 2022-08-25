@@ -1,3 +1,9 @@
 :root {
+  /* color */
   --yellow: #fae100;
+  --basic: #2e363e;
+  --notification: #999999;
+
+  /* padding */
+  --horizontal-space: 25px
 }

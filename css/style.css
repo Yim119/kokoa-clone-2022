@@ -1,10 +1,19 @@
 @import "reset.css"; 
-@import "components/status-bar.css";
-@import "screens/welcome-header.css";
 @import "variables.css";
+
+/* components */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/title-bar.css";
+@import "components/user-component.css";
+
+/* screens */
+@import "screens/welcome-header.css";
 @import "screens/entrance-form.css";
+@import "screens/friends-screen.css";
 
 body {
   font-family: -apple-system;
-  height: 110vh;
+  height: 200vh;
+  position: relative;
   }

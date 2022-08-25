@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Friends</title>
+</head>
+
+<body>
+  <div class="status-bar">
+    <div class="status-bar__column">
+      <span>No Service</span> <!-- To Do! Wifi icon -->
+      <i class="fas fa-wifi"></i>
+    </div>
+    <div class="status-bar__column">
+      <span>18:43</span>
+    </div>
+    <div class="status-bar__column">
+      <span>100%</span>
+      <i class="fas fa-battery-full"></i> <!-- battery icon -->
+      <i class="fas fa-bolt"></i> <!-- lightning icon -->
+    </div>
+  </div>
+
+  <header class="title-bar">
+    <h1 class="title-bar__title">Friends</h1>
+    <div class="title-bar__icon">
+      <i class="fas fa-search fa-lg"></i>
+      <i class="fas fa-music fa-lg"></i>
+      <i class="fas fa-cog fa-lg"></i>
+    </div>
+  </header>
+
+  <a class="friends-display">
+    <i class="fas fa-info-circle"></i> Friends' Names Display
+    <i class="fas fa-chevron-right fa-xs"></i>
+  </a>
+
+  <main class="friends-screen">
+
+    <div class="user-component">
+      <div class="user-component__column">
+        <img src="css/img/profile.jpeg" class="user-component__photo user-component__photo--xl" />
+        <div class="user-component__text">
+          <h4 class="user-component__name">Yim SeungHyeok</h4>
+          <!-- <h6 class="user-component__subtitle"></h6> -->
+        </div>
+      </div>
+      <div class="user-component__column">
+      </div>
+    </div>
+
+
+    <div id="friends-screen__channel-list">
+      <span>Channel</span>
+      <i class="fas fa-chevron-up fa-xs"></i>
+    </div>
+
+    <div class="user-component">
+      <div class="user-component__column">
+        <img src="css/img/kakaotalk-ch.png" class="user-component__photo user-component__photo--sm" />
+        <div class="user-component__text">
+          <h4 class="user-component__name--light">Channel</h4>
+        </div>
+      </div>
+      <div class="user-component__column">
+        <span class="user-component__list">2 <i class="fas fa-chevron-right fa-xs"></i></span>
+      </div>
+    </div>
+
+  </main>
+
+  <nav class="nav">
+    <ul class="nav__list">
+      <li class="nav__btn">
+        <a class="nav__link" href="#">
+          <i class="fas fa-user fa-2x"></i>
+        </a>
+      </li>
+      <li class="nav__btn">
+        <a class="nav__link" href="#">
+          <span class="nav__link__comment-bedge">1</span>
+          <i class="far fa-comment fa-2x">
+          </i>
+        </a>
+      </li>
+      <li class="nav__btn">
+        <a class="nav__link" href="#"><i class="fas fa-search fa-2x"></i></a>
+      </li>
+      <li class="nav__btn">
+        <a class="nav__link" href="#">
+          <div class="nav__link__ellipsis-bedge"></div>
+          <i class="fas fa-ellipsis-h fa-2x"></i>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

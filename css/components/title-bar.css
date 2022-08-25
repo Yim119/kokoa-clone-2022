@@ -1,0 +1,20 @@
+.title-bar {
+  display: flex;
+  padding: 25px 28px;
+  width: 100%;
+  border: 1px solid ba;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.title-bar__title {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.title-bar__icon i {
+  margin-left: 28px;
+  font-size: 24px;
+  font-weight: 400;
+}

@@ -1,0 +1,57 @@
+/* profile part */
+
+.user-component {
+  justify-content: space-between;
+}
+
+.user-component,
+.user-component__column:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.user-component__photo {
+  margin-right: 18px;
+  width: 70px;
+  height: 70px;
+  border-radius: 30px;
+}
+
+.user-component__subtitle {
+  color: var(--notification);
+  font-size: 23px;
+  margin-top: 8px;
+}
+
+.user-component__name {
+  font-size: 24px;
+  font-weight: 600;
+  }
+
+/* notification */
+
+.user-component__list {
+  color: var(--notification);
+}
+
+
+/* modified class = modifier */
+
+.user-component__photo--xl {
+  width: 80px;
+  height: 80px;
+  border-radius: 35px;
+}
+
+.user-component__name--light {
+  font-size: 23px;
+  font-weight: 450;
+}
+
+.user-component__photo--sm {
+  width: 60px;
+  height: 60px;
+  border-radius: 25px;
+}
+
+
