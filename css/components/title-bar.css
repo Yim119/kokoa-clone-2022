@@ -6,6 +6,7 @@
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
+  margin-bottom: 15px;
 }
 
 .title-bar__title {
@@ -14,7 +15,22 @@
 }
 
 .title-bar__icon i {
+  position: relative;
   margin-left: 28px;
   font-size: 24px;
-  font-weight: 400;
 }
+
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg)
+  }
+}
+
+.title-bar a i:hover {
+  animation: rotateCog 3s linear infinite;
+}
+
+

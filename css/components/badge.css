@@ -1,0 +1,60 @@
+.badge {
+  background-color: tomato;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.dot-badge {
+  display: flex;
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+}
+
+/* position */
+
+@keyframes comment-badgeAnimation {
+  0% {
+    transform: none;  
+  }
+
+  50% {
+    transform: translateY(-3px) rotateY(360deg);
+  }
+  
+  100% {
+    transform: none;
+  }
+}
+
+.nav__link__comment-badge {
+  position: absolute;
+  left: 20px;
+  bottom: 17px;
+  animation: comment-badgeAnimation 3s ease-in-out infinite;
+}
+
+.nav__link__ellipsis-badge {
+  position: absolute;
+  left: 35px;
+}
+
+.title-bar__cog-badge {
+  position: absolute;
+  left: 22px;
+  bottom: 22px;
+}
+
+.more-list__talk-drive__badge {
+  position: absolute;
+  bottom: 30px;
+  left: 45px;
+}

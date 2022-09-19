@@ -1,0 +1,33 @@
+/* search header */
+
+.search-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--horizontal-space);
+}
+
+.search-header__column {
+  width: 33%;
+}
+
+.search-header__column:nth-child(2) {
+  font-size: 28px;
+  font-weight: 500;
+  justify-content: center;
+  display: flex;
+}
+
+.search-header__column:first-child {
+  margin-right: auto;
+}
+
+.search-header__column:last-child {
+  margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.search-header__column span:last-child {
+  margin-left: 20px;
+}

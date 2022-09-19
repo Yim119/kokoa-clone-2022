@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>More</title>
+  <script src="https://kit.fontawesome.com/01b9ba4d71.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="status-bar">
+    <div class="status-bar__column">
+      <span>No Service</span> <!-- To Do! Wifi icon -->
+      <i class="fas fa-wifi"></i>
+    </div>
+    <div class="status-bar__column">
+      <span>18:43</span>
+    </div>
+    <div class="status-bar__column">
+      <span>100%</span>
+      <i class="fas fa-battery-full"></i> <!-- battery icon -->
+      <i class="fas fa-bolt"></i> <!-- lightning icon -->
+    </div>
+  </div>
+
+  <header class="title-bar">
+    <h1 class="title-bar__title">More</h1>
+    <div class="title-bar__icon">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <i class="fa-solid fa-music"></i>
+      <a href="setting.html"><i class="fa-solid fa-gear">
+        <div class="dot-badge title-bar__cog-badge"></div>
+        </i>
+      </a>
+    </div>
+  </header>
+
+  <main class="main-screen">
+    <div class="user-component">
+      <div class="user-component__column">
+        <img src="css/img/profile.jpeg" class="user-component__photo user-component__photo--xl" />
+        <div class="user-component__text">
+          <h4 class="user-component__name">Yim SeungHyeok</h4>
+          <div class="user-component__address">
+            <h6 class="user-component__number">+82 10-4726-5070</h6>
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="user-component__column">
+        <i class="far fa-comment-alt fa-2x"></i>
+      </div>
+    </div>
+
+    <div class="more-list">
+      <div class="more-list__column">
+        <div class="more-list__icon more-list__calendar">
+          <i class="far fa-calendar-check fa-lg"></i>
+          <span>Calendar</span>
+        </div>
+        <div class="more-list__icon more-list__talk-drive">
+          <i class="fa-solid fa-box-archive fa-lg">
+            <div class="dot-badge more-list__talk-drive__badge"></div>
+          </i>
+          <span>Talk Drive</span>
+        </div>
+        <div class="more-list__icon more-list__emoticons">
+          <i class="far fa-grin-squint fa-lg"></i>
+          <span>Emoticons</span>
+        </div>
+        <div class="more-list__icon more-list__theme">
+          <i class="fas fa-brush fa-lg"></i>
+          <span>Theme</span>
+        </div>
+      </div>
+      <div class="more-list__column">
+        <div class="more-list__icon more-list__account">
+          <i class="fas fa-id-card fa-lg"></i>
+          <span>Account</span>
+        </div>
+        <div class="more-list__icon more-list__openchat">
+          <i class="fas fa-comments fa-lg"></i>
+          <span>Open Chat</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="more__suggestions">
+      <div class="more__suggestions-header">
+        <span>Suggestions</span>
+      </div>
+      <div class="more__suggestions-list">
+        <div class="more__suggestions-list__icons">
+          <img src="css/img/kakao-story.png" />
+          <span>Kakao Story</span>
+        </div>
+        <div class="more__suggestions-list__icons">
+          <img src="css/img/kakao-friends.png" />
+          <span>Kakao Friends</span>
+        </div>
+        <div class="more__suggestions-list__icons">
+          <img src="css/img/friends-gem.jpeg" />
+          <span>Friends Gem</span>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <nav class=" nav">
+    <ul class="nav__list">
+      <li class="nav__btn">
+        <a class="nav__link" href="friends.html">
+          <i class="far fa-user fa-2x"></i>
+        </a>
+      </li>
+      <li class="nav__btn">
+        <a class="nav__link" href="chats.html">
+          <span class="badge nav__link__comment-badge">2</span>
+          <i class="far fa-comment fa-2x">
+          </i>
+        </a>
+      </li>
+      <li class="nav__btn">
+        <a class="nav__link" href="find.html">
+          <i class="fas fa-search fa-2x"></i></a>
+      </li>
+      <li class="nav__btn">
+        <a class="nav__link" href="more.html">
+          <div class="dot-badge nav__link__ellipsis-badge"></div>
+          <i class="fas fa-ellipsis-h fa-2x"></i>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+</body>
+
+</html>

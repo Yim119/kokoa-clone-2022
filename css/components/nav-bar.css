@@ -13,34 +13,35 @@
   justify-content: space-between;
 }
 
-
 .nav__link {
   color: #2e363e;
   position: relative;
   }
 
-.nav__link__comment-bedge {
-  background-color: tomato;
-  width: 20px;
-  height: 20px;
-  display: flex;
-  border-radius: 10px;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  position: absolute;
-  font-size: 13px;
-  font-weight: 600;
-  left: 20px;
-  bottom: 17px;
+@keyframes nav-btnAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
 }
 
-.nav__link__ellipsis-bedge {
-  background-color: tomato;
-  display: flex;
-  width: 5px;
-  height: 5px;
-  border-radius: 2.5px;
-  position: absolute;
-  left: 35px;
+.nav__btn {
+  transform: translateY(70px);
+  opacity: 0;
+  animation: nav-btnAnimation 0.5s cubic-bezier(0.680, -0.550, 0.265, 1.550) forwards;
+}
+
+.nav__btn:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+.nav__btn:nth-child(3) {
+    animation-delay: 0.2s;
+}
+
+.nav__btn:last-child {
+  animation-delay: 0.3s;
 }

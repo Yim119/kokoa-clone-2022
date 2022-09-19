@@ -1,9 +1,12 @@
 :root {
   /* color */
   --yellow: #fae100;
-  --basic: #2e363e;
+  --basic: rgba(0, 0, 0, 0.8);
   --notification: #999999;
 
   /* padding */
-  --horizontal-space: 25px
+  --horizontal-space: 30px;
+
+  /* border */
+  --main-border: 1.5px solid #dedede;
 }

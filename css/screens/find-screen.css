@@ -1,0 +1,134 @@
+/* recommended friends */
+
+.recommended-friends {
+  color: var(--notification);
+  border-bottom: var(--main-border);
+  border-top: var(--main-border);
+  padding: 18px 0px;
+  margin-bottom: 18px;
+}
+
+.recommended-friends__title {
+  font-size: 15px;
+}
+
+.recommended-friends span {
+  display: block;
+  text-align: center;
+  margin: 100px 0px;
+  font-size: 18px;
+}
+
+/* openchat */
+
+.openchat-list__chat {
+  padding: 13px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: var(--main-border);
+}
+
+.openchat-list__header {
+  display: flex;
+  justify-content: space-between;
+  color: var(--notification);
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+/* openchat info */
+
+.openchat-list__chat-info__title {
+  font-size: 19px;
+}
+
+.openchat-list__chat-info__hashtag {
+  text-transform: uppercase;
+  color: var(--notification);
+  font-size: 16px;
+  margin: 7px 0px;
+}
+
+.openchat-list__chat-info__profile {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+
+.openchat-list__chat-info__profile img {
+  width: 22px;
+  height: 22px;
+  border-radius: 8px;
+  margin-right: 8px;
+  }
+
+
+.openchat-list__chat-info__profile span:nth-child(2) {
+  color: var(--notification);
+}
+
+.openchat-list__chat-info__profile span:last-child {
+  color: #ff54f6;
+}
+
+.openchat-list__chat-info__profile .divider {
+  background-color: var(--notification);
+  margin: 0px 8px;
+  width: 1.5px;
+  height: 17px;
+  opacity: 0.5;
+}
+
+/* openchat icon */
+
+.openchat-list__chat-icon {
+  position: relative;
+}
+
+.openchat-list__chat-icon img {
+  width: 120px;
+  height: 120px;
+  border-radius: 8px;
+}
+
+.openchat-list__chat-icon__likes {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px 10px;
+  font-size: 16px;
+  color: white;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 8px;
+  bottom: 10px;
+  border-radius: 20px;
+}
+
+.openchat-list__chat-icon__likes span {
+  margin-left: 4px;
+  padding-bottom: 1.5px;
+}
+
+@keyframes heartBeat{
+  0% {
+    transform: none;
+    color: white;
+  }
+
+  50% {
+    transform: scale(1.2);
+    color: tomato
+  }
+
+  100% {
+    transform: none;
+    color: white
+  }
+}
+
+.openchat-list__chat-icon__likes:hover i {
+  will-change: transform;
+  animation: heartBeat 1s linear infinite;
+}
+

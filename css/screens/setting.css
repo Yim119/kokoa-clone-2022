@@ -1,0 +1,54 @@
+
+/* setting list row */
+
+.setting-list__row:first-child {
+  border-bottom: var(--main-border);
+  padding-bottom: 20px;
+  margin-top: 20px;
+}
+
+.setting-list__row:last-child {
+  padding-top: 20px;
+}
+/* setting list */
+
+.setting-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 26px 0px;
+}
+
+.setting-list {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05) ;
+}
+
+/* info part*/
+
+.setting-list__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.setting-list__info-name {
+  font-weight: 350;
+  font-size: 23px;
+  color: var(--basic);
+}
+
+.setting-list__info i {
+  margin-right: 25px;
+  font-size: 23px;
+  color: var(--basic);
+}
+
+.setting-list__info .badge {
+  margin-left: 9px;
+}
+
+/* notification part */
+
+.setting-list__notification {
+  font-size: 23px;
+  color: var(--notification);
+}
